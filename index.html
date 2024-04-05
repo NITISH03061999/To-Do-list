@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 parent pt-5 pb-5">
+          <div class="child col-lg-6 col-md-12 col-sm-12">
+            <div class="div-one">
+              <p class="text-center mt-4">TO-DO LIST</p>
+            </div>
+            <div class="notes">
+              <p class="mt-1">Add Notes Below:</p>
+              <input type="text ps-2" name="" id="input-text" class="input" />
+              <div>
+                <button type="button" class="add-button" id="add-note">
+                  Add
+                </button>
+              </div>
+            </div>
+            <div class="saved-notes" id="saved-note">
+              <div class="notes-body" id="notes-bodyid">
+                <div class="notes-head"><p>Todo List :</p></div>
+                <div class="listclose-head">
+                  <p>List</p>
+                  <p>Close</p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 240, 238, 255);
+}
+.child {
+  height: 600px;
+  width: 35%;
+  border-radius: 10px;
+  background-color: rgba(246, 247, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.div-one {
+  height: 140px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(83, 95, 147, 255);
+  color: white;
+  font-size: 25px;
+}
+.notes {
+  width: 90%;
+  height: 150px;
+  position: relative;
+  bottom: 40px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.saved-notes {
+  width: 90%;
+  height: 370px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: scroll;
+}
+.input {
+  width: 60%;
+  height: 20%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  padding-left: 10px;
+}
+.add-button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: #ed695a;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.notes-head {
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+.listclose-head {
+  height: 30px;
+  width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #99999f;
+  text-align: center;
+}
+.notes-div {
+  padding: 20px;
+  width: 100%;
+  border: 4px solid #f9f9f9;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+}
+.data {
+  width: 50%;
+  height: 100%;
+}
+.para1 {
+  width: 80%;
+  height: 100%;
+}
+.para2 {
+  border: 2px solid #99999f;
+  color: #99999f;
+  height: 100%;
+  float: right;
+  padding: 0px 10px;
+  border-radius: 3px;
+}
+.newdiv {
+  width: 100%;
+}
